@@ -1,0 +1,31 @@
+/* normalize */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex.container{
+    background-color: rebeccapurple;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+.caja{
+    height: 100px;
+    width: 100px;
+    border: solid 1px yellow;
+}
+.A{
+    background-color: blue;
+}
+.B{
+    background-color: rgb(173, 23, 136);
+}
+.C{
+    background-color: darkgreen;
+}
+.D{
+    background-color: darkred;
+}
